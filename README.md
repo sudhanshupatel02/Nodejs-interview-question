@@ -108,3 +108,19 @@ package.json is a configuration file in Node.js that stores metadata about the p
 **Nodejs require**: 1. Require is Non-lexical, it stays where they have put the file. 2. It can be called at any time and place in the program. 3.require is a built-in function in Node.js that is used to load modules
 
 **import and export**:1. Import is lexical, it gets sorted to the top of the file. 2. It can’t be called conditionally, it always run in the beginning of the file. 3  import is a new syntax introduced in ES6 that is used to load modules in JavaScript. Import is not supported natively in Node.js
+
+<div id="q6"></div>
+
+## 6. What is the purpose of the global object in Node.js ? [&uarr; Top](#top)
+The global object in Node.js provides access to global variables and functions, which can be accessed from any module in the application. However, it is not recommended to use the global object as it can lead to naming conflicts and other issues.
+
+1. **Global Scope**: Variables and functions declared without the var, let, or const keyword are automatically added to the global object. This means that they are accessible from any part of the application.
+
+2. **Global Properties and Methods**: The global object has properties and methods that are built into the Node.js runtime environment. examples include:
+
+1.console: Provides methods for writing to the console.
+2.require(): Used for including modules in Node.js.
+3.process: Provides information and control over the Node.js process.
+4.setTimeout(), setInterval(): Functions for scheduling code execution after a specified time delay or at regular intervals.
+
+3. **Global Variables**: Certain variables are available globally, such as __dirname (the directory name of the current module) and __filename (the file name of the current module).

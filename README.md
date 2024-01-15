@@ -1,67 +1,98 @@
 ﻿# Nodejs-interview-question
-#  Brush up your Reactjs knowledge for your 2023 interview with this list of 50+ frequently asked questions
+#  Brush up your Nodejs knowledge for your 2024 interview with this list of 50+ frequently asked questions
 
 
 ## Table of Contents
 <div id="top"></div>
 
-- [1. What is role of react in software development ?](#q1)
-- [2. What is single page Application ?](#q2)
-- [3. What are the advantage of react ?](#q3)
-- [4.  What is the typical folder structure of a React.js application? ?](#q4)
-- [5. Why is organizing your React.js application's folder structure important? ?](#q5)
-- [6. What is the purpose of the "public" folder in a React.js application ?](#q6)
-- [7. What is typically found inside the "src" folder of a React.js application ?](#q7)
-- [8.  What is the purpose of the "index.js" file usually found inside a component folder? ?](#q8)
-- [9. In a large-scale application, what strategies could you implement to prevent the folder structure from becoming overly complex and difficult to manage ?](#q9)
-- [10. What is role of src folder in reactjs ?](#q10)
-- [11. What is JSX in react ?](#q11)
-- [12. What are the disadvantage of JSX ?](#q12)
-- [13. What is transpiler in reactjs ?](#q13)
-- [14. Difference between library and framwork ?](#q14)
-- [15. What are props in React? ?](#q15)
-- [16. Can props be modified inside a child component ?](#q16)
-- [17. What is state in React ?](#q17)
-- [18. When should you use state versus props ?](#q18)
-- [19. What is a React component ?](#q19)
-- [20. Explain the difference between functional and class components ?](#q20)
-- [21. What is the Virtual DOM in React ?](#q21)
-- [22. How does the Virtual DOM work ?](#q22)
-- [23. Why does React use the Virtual DOM ?](#q23)
-- [24. How does the reconciliation process work in React ?](#q24)
-- [25. What's the benefit of using the Virtual DOM for rendering ?](#q25)
-- [26. Can the Virtual DOM eliminate all performance bottlenecks ?](#q26)
-- [27. Does React update the entire Virtual DOM on every state change ?](#q27)
-- [28. How does the key attribute affect the Virtual DOM reconciliation process? ?](#q28)
-- [29. Are there cases where using the Virtual DOM might be unnecessary ?](#q29)
-- [30. what is diffing and Reconciliation ?](#q30)
-- [31. What is difference between client side rendering and server side rendering ?](#q31)
-- [32. What are React Hooks ?](#q32)
-- [33. What problem do React Hooks solve ?](#q33)
-- [34. How does the useState hook work ?](#q34)
-- [35. Explain the useEffect hook ?](#q35)
-- [36. What is the useContext hook used for ?](#q36)
-- [37. How can custom hooks be used ?](#q37)
-- [38. What's the purpose of the useMemo and useCallback hooks ?](#q38)
-- [39. Can you use hooks in class components ?](#q39)
-- [40. Why should we not update the state directly ?](#q40)
-- [41. What is difference bewteen state and props  ?](#q41)
-- [42. What is useRef  being uesd for ?](#q42)
-- [43. What is pure Components and what is their purpose ?](#q43)
-- [44. Why react uses className over class attribute ?](#q44)
-- [45. What is React Fiber? ?](#q45)
-- [46. What is the main goal of React Fiber ?](#q46)
-- [47. What is controlled Compoments  ?](#q47)
-- [48. What is uncontrolled Compoments  ?](#q48)
-- [49. What are the difference between controlled and uncontrolled components ?](#q49)
-- [50. What is Lifting State Up in React? ?](#q50)
-- [51. What are Higher-Order Components ?](#q51)
-- [52. What is context? ?](#q52)
-- [53. what is prop drilling ?](#q53)
-- [54. What are the several drawbacks of prop drilling ?](#q54)
-- [55. What are the approaches used to avoid prop drilling ?](#q55)
-- [56. What are fragments ?](#q56)
-- [57. What are the benefits of using fragments  ?](#q57)
-- [58. Why fragments are better than container divs ?](#q58)
-- [59. What are stateless components ?](#q59)
+- [1. What is Node.js ?](#q1)
+- [2. What is an event loop in Node.js?](#q2)
+- [3.What is a callback function in Node.js?](#q3)
+- [4.  What is package.json in Node.js?](#q4)
+- [5. What is the difference between require and import in Node.js?](#q5)
+- [6. What is the purpose of the global object in Node.js?](#q6)
+- [7. What is a stream in Node.js?](#q7)
+- [8.  What is middleware in Node.js?](#q8)
+- [9. What is the difference between process.nextTick() and setImmediate() in Node.js?](#q9)
+- [10. How can you handle errors in Node.js?](#q10)
+- [11. What is clustering in Node.js?](#q11)
+- [12. What is the purpose of the fs module in Node.js?](#q12)
+- [13. What is the purpose of the path module in Node.js?](#q13)
+- [14. What is the purpose of the net module in Node.js?](#q14)
+- [15. How can you read a file using the fs module?](#q15)
+- [16. How can you write to a file using the fs module?](#q16)
+- [17. How can you delete a file using the fs module?](#q17)
+- [18. How can you create a directory using the fs module?](#q18)
+- [19. How can you remove a directory using the fs module?](#q19)
+- [20. How can you check if a file or directory exists using the fs module?](#q20)
+- [21. How can you read the contents of a directory using the fs module?](#q21)
+- [22. How can you watch for changes to a file using the fs module?](#q22)
+- [23. How can you create a readable stream from a file using the fs module?](#q23)
+- [24. What is the os module in Node.js?](#q24)
+- [25. What is the path module in Node.js?](#q25)
+- [26. How can you get the system's CPU architecture using the os module?](#q26)
+- [27. How can you get the system's total memory using the os module?](#q27)
+- [28. How can you get the system's hostname using the os module?](#q28)
+- [29. How can you join two or more file path segments using the path module?](#q29)
+- [30. How can you get the base name of a file path using the path module?](#q30)
+- [31. How can you get the directory name of a file path using the path module?](#q31)
+- [32. How can you check if a path is an absolute path using the path module?](#q32)
+- [33. How can you normalize a file path using the path module?](#q33)
+- [34. What is the purpose of the Node.js REPL?](#q34)
+- [35.  ?](#q35)
+- [36. ?](#q36)
+- [37. ?](#q37)
+- [38. ?](#q38)
+- [39. ?](#q39)
+- [40. ?](#q40)
+- [41. ?](#q41)
+- [42. ?](#q42)
+- [43. ?](#q43)
+- [44. ?](#q44)
+- [45. ?](#q45)
+- [46. ?](#q46)
+- [47. ?](#q47)
+- [48. ?](#q48)
+- [49. W?](#q49)
+- [50. ?](#q50)
+- [51. ?](#q51)
+- [52. ?](#q52)
+- [53. ?](#q53)
+- [54. ?](#q54)
+- [55. ?](#q55)
+- [56. ?](#q56)
+- [57. ?](#q57)
+- [58. ?](#q58)
+- [59.  ?](#q59)
 - [6.  ?](#q6)
+
+
+
+<div id="q1"></div>
+
+## 1. What is Node.js ? [&uarr; Top](#top)
+
+Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to run JavaScript code server-side. It is built on the V8 JavaScript runtime engine, which is the same engine used by the Google Chrome browser to execute JavaScript code. Node.js enables developers to use JavaScript for both client-side and server-side scripting, unifying the development process.:
+
+1. **Asynchronous and Event-Driven**: Node.js is designed to be non-blocking and event-driven, allowing it to handle a large number of simultaneous connections efficiently. This is particularly beneficial for applications that involve real-time features.
+
+2. **Single Programming Language:**: Node.js allows developers to use JavaScript for both front-end and back-end development. This can lead to a more seamless and consistent development experience.
+
+3. **NPM (Node Package Manager)**:  NPM is the default package manager for Node.js and the largest software registry in the world. It allows developers to easily share and reuse code, making it straightforward to incorporate third-party libraries into their projects.
+
+4. **Scalability**: Due to its non-blocking and asynchronous nature, Node.js is well-suited for handling a large number of concurrent connections, making it scalable for applications with high traffic.
+
+5. **Community and Ecosystem**:Node.js has a large and active community of developers, which contributes to its extensive ecosystem of libraries and modules that can be easily integrated into applications.
+
+
+
+<div id="q2"></div>
+
+## 2. What is an event loop in Node.js ? [&uarr; Top](#top)
+The event loop is a mechanism in Node.js that allows it to handle multiple concurrent operations. It listens for events and sends them to the appropriate callback function when they occur.
+
+
+<div id="q3"></div>
+
+## 3. What is a callback function in Node.js ? [&uarr; Top](#top)
+A callback function is a function passed as an argument to another function. In Node.js, it is commonly used to handle asynchronous operations such as reading and writing files or making API calls.

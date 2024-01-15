@@ -1,5 +1,5 @@
 ﻿# Nodejs-interview-question
-#  Brush up your Nodejs knowledge for your 2024 interview with this list of 50+ frequently asked questions
+#  Nodejs interview-question 
 
 
 ## Table of Contents
@@ -96,3 +96,15 @@ The event loop is a mechanism in Node.js that allows it to handle multiple concu
 
 ## 3. What is a callback function in Node.js ? [&uarr; Top](#top)
 A callback function is a function passed as an argument to another function. In Node.js, it is commonly used to handle asynchronous operations such as reading and writing files or making API calls.
+
+<div id="q4"></div>
+
+## 4. What is package.json in Node.js ? [&uarr; Top](#top)
+package.json is a configuration file in Node.js that stores metadata about the project, such as its name, version, dependencies, and scripts. It is used by Node.js to install dependencies and run scripts.
+
+<div id="q5"></div>
+
+## 5. What is the difference between require and import in Node.js? ? [&uarr; Top](#top)
+**Nodejs require**: 1. Require is Non-lexical, it stays where they have put the file. 2. It can be called at any time and place in the program. 3.require is a built-in function in Node.js that is used to load modules
+
+**import and export**:1. Import is lexical, it gets sorted to the top of the file. 2. It can’t be called conditionally, it always run in the beginning of the file. 3  import is a new syntax introduced in ES6 that is used to load modules in JavaScript. Import is not supported natively in Node.js

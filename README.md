@@ -118,9 +118,12 @@ The global object in Node.js provides access to global variables and functions, 
 
 2. **Global Properties and Methods**: The global object has properties and methods that are built into the Node.js runtime environment. examples include:
 
-1.console: Provides methods for writing to the console.
-2.require(): Used for including modules in Node.js.
-3.process: Provides information and control over the Node.js process.
-4.setTimeout(), setInterval(): Functions for scheduling code execution after a specified time delay or at regular intervals.
+     1.console: Provides methods for writing to the console.                                                                                                                                                        
+     2.require(): Used for including modules in Node.js.
+   
+     3.process: Provides information and control over the Node.js process.
+   
+     4.setTimeout(), setInterval(): Functions for scheduling code execution after a specified time delay or at regular intervals.
+   
 
-3. **Global Variables**: Certain variables are available globally, such as __dirname (the directory name of the current module) and __filename (the file name of the current module).
+4. **Global Variables**: Certain variables are available globally, such as __dirname (the directory name of the current module) and __filename (the file name of the current module).

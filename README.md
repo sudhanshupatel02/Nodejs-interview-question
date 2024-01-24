@@ -128,7 +128,209 @@ The global object in Node.js provides access to global variables and functions, 
 
 4. **Global Variables**: Certain variables are available globally, such as __dirname (the directory name of the current module) and __filename (the file name of the current module).
 
-## 5. What is the difference between require and import in Node.js? ? [&uarr; Top](#top)
+## 7. What is a stream in Node.js ? [&uarr; Top](#top)
 A stream in Node.js is a way of handling data in a continuous and efficient manner. It allows developers to read and write large amounts of data without having to load everything into memory at once.
+
+<div id="q6"></div>
+
+## 8. WWhat is middleware in Node.js ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 9.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 10. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 11.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 12.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 13. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 14.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 15.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 16. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 17.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 18.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 19. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 20.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 9.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 10. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 11.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 12.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 13. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 14.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 15.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 16. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 17.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 18.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 19. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 20.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 21.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 22. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 23.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+
+## 24.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 25.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 26. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 27.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 28.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 29. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 30.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 31.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 32. ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 33.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+
+## 34.  ? [&uarr; Top](#top)
+
+
+<div id="q6"></div>
+
+## 35.  ? [&uarr; Top](#top)
+
 
 <div id="q6"></div>

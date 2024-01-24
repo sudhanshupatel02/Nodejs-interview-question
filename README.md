@@ -133,199 +133,139 @@ A stream in Node.js is a way of handling data in a continuous and efficient mann
 
 <div id="q6"></div>
 
-## 8. WWhat is middleware in Node.js ? [&uarr; Top](#top)
+## 8. What is middleware in Node.js ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 9.  ? [&uarr; Top](#top)
+## 9. What is the difference between process.nextTick() and setImmediate() in Node.js  ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 10. ? [&uarr; Top](#top)
+## 10. How can you handle errors in Node.js ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 11.  ? [&uarr; Top](#top)
+## 11. What is clustering in Node.js  ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 12.  ? [&uarr; Top](#top)
+## 12. What is the purpose of the fs module in Node.js ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 13. ? [&uarr; Top](#top)
+## 13. What is the purpose of the path module in Node.js ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 14.  ? [&uarr; Top](#top)
+## 14. What is the purpose of the net module in Node.js ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 15.  ? [&uarr; Top](#top)
+## 15. How can you read a file using the fs module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 16. ? [&uarr; Top](#top)
+## 16. How can you write to a file using the fs module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 17.  ? [&uarr; Top](#top)
+## 17. How can you delete a file using the fs module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 18.  ? [&uarr; Top](#top)
+## 18. How can you create a directory using the fs module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 19. ? [&uarr; Top](#top)
+## 19. How can you remove a directory using the fs module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 20.  ? [&uarr; Top](#top)
+## 20. How can you check if a file or directory exists using the fs module  ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 9.  ? [&uarr; Top](#top)
+## 21. How can you read the contents of a directory using the fs module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 10. ? [&uarr; Top](#top)
+## 22. How can you watch for changes to a file using the fs module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 11.  ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 12.  ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 13. ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 14.  ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 15.  ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 16. ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 17.  ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 18.  ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 19. ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 20.  ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 21.  ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 22. ? [&uarr; Top](#top)
-
-
-<div id="q6"></div>
-
-## 23.  ? [&uarr; Top](#top)
+## 23. How can you create a readable stream from a file using the fs module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
 
-## 24.  ? [&uarr; Top](#top)
+## 24. What is the os module in Node.js ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 25.  ? [&uarr; Top](#top)
+## 25. What is the path module in Node.js ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 26. ? [&uarr; Top](#top)
+## 26. How can you get the system's CPU architecture using the os module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 27.  ? [&uarr; Top](#top)
+## 27. How can you get the system's total memory using the os module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 28.  ? [&uarr; Top](#top)
+## 28. How can you get the system's hostname using the os module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 29. ? [&uarr; Top](#top)
+## 29. How can you join two or more file path segments using the path module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 30.  ? [&uarr; Top](#top)
+## 30. How can you get the base name of a file path using the path module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 31.  ? [&uarr; Top](#top)
+## 31. How can you get the directory name of a file path using the path module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 32. ? [&uarr; Top](#top)
+## 32. How can you check if a path is an absolute path using the path module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
-## 33.  ? [&uarr; Top](#top)
+## 33. How can you normalize a file path using the path module ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>
 
 
-## 34.  ? [&uarr; Top](#top)
+## 34. What is the purpose of the Node.js REPL ? [&uarr; Top](#top)
 
 
 <div id="q6"></div>

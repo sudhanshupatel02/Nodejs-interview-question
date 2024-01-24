@@ -127,3 +127,8 @@ The global object in Node.js provides access to global variables and functions, 
    
 
 4. **Global Variables**: Certain variables are available globally, such as __dirname (the directory name of the current module) and __filename (the file name of the current module).
+
+## 5. What is the difference between require and import in Node.js? ? [&uarr; Top](#top)
+A stream in Node.js is a way of handling data in a continuous and efficient manner. It allows developers to read and write large amounts of data without having to load everything into memory at once.
+
+<div id="q6"></div>

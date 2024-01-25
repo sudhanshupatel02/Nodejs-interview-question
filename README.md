@@ -206,7 +206,7 @@ fs.unlink('example.txt', function (err) {
 <div id="q17"></div>
 
 ## 18. How can you create a directory using the fs module ? [&uarr; Top](#top)
-
+To create a directory using the fs module, you can use the fs.mkdir() method. This method takes the directory path and a callback function as arguments, and the callback function is called with an error argument.
 
 <div id="q18"></div>
 

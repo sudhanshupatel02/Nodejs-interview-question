@@ -208,36 +208,93 @@ fs.unlink('example.txt', function (err) {
 ## 18. How can you create a directory using the fs module ? [&uarr; Top](#top)
 To create a directory using the fs module, you can use the fs.mkdir() method. This method takes the directory path and a callback function as arguments, and the callback function is called with an error argument.
 
+```jsx
+const fs = require('fs');
+
+const directoryPath = 'path/to/your/new/directory';
+
+// Use fs.mkdir to create the directory
+fs.mkdir(directoryPath, { recursive: true }, (err) => {
+  if (err) {
+    console.error(`Error creating directory: ${err.message}`);
+  } else {
+    console.log(`Directory ${directoryPath} created successfully`);
+  }
+});
+```
+
 <div id="q18"></div>
 
 ## 19. How can you remove a directory using the fs module ? [&uarr; Top](#top)
+To remove a directory using the fs module, you can use the fs.rmdir() method. This method takes the directory path and a callback function as arguments, and the callback function is called with an error argument.
+```jsx
+const fs = require('fs');
 
+const directoryPath = 'path/to/your/directory';
+
+// Use fs.rmdir to remove the directory
+fs.rmdir(directoryPath, { recursive: true }, (err) => {
+  if (err) {
+    console.error(`Error removing directory: ${err.message}`);
+  } else {
+    console.log(`Directory ${directoryPath} removed successfully`);
+  }
+});
+```
 
 <div id="q19"></div>
 
 ## 20. How can you check if a file or directory exists using the fs module  ? [&uarr; Top](#top)
+To check if a file or directory exists using the fs module, you can use the fs.existsSync() method. This method takes the file or directory path as an argument and returns a boolean value indicating whether the file or directory exists.
 
+```jsx
+const fs = require("fs");
+exists('/etc/passwd', (e) => {
+  console.log(e ? 'it exists' : 'no passwd!');
+});
+```
 
 <div id="q20"></div>
 
 ## 21. How can you read the contents of a directory using the fs module ? [&uarr; Top](#top)
+To read the contents of a directory using the fs module, you can use the fs.readdir() method. This method takes the directory path and a callback function as arguments, and the callback function is called with an error argument and an array of file names in the directory.
+`fs.readdir( path, options, callback )`callback two type error and file.
 
 
 <div id="q21"></div>
 
 ## 22. How can you watch for changes to a file using the fs module ? [&uarr; Top](#top)
-
+To watch for changes to a file using the fs module, you can use the fs.watch() method. This method takes the file path and a callback function as arguments, and the callback function is called whenever the file is changed.
 
 <div id="q22"></div>
 
 ## 23. How can you create a readable stream from a file using the fs module ? [&uarr; Top](#top)
-
+To create a readable stream from a file using the fs module, you can use the fs.createReadStream() method. This method takes the file path as an argument and returns a readable stream that can be piped to other streams or written to.
 
 <div id="q23"></div>
 
 
 ## 24. What is the os module in Node.js ? [&uarr; Top](#top)
-
+The os module in Node.js provides a way of interacting with the operating system. It allows developers to get information about the system's memory, CPU, network interfaces, and more.
+```jsx
+// Include os module and create its object
+const os = require('os');
+ 
+// return the cpu architecture
+console.log("CPU architecture: " + os.arch());
+ 
+// It returns the amount of free system memory in bytes
+console.log("Free memory: " + os.freemem());
+ 
+// It return total amount of system memory in bytes
+console.log("Total memory: " + os.totalmem());
+ 
+// It returns the list of network interfaces
+console.log('List of network Interfaces: ' + os.networkInterfaces());
+ 
+// It returns the operating systems default directory for temp files.
+console.log('OS default directory for temp files : ' + os.tmpdir());
+```
 
 <div id="q24"></div>
 

@@ -369,28 +369,91 @@ console.log(`Full Path: ${fullPath}`);
 <div id="q29"></div>
 
 ## 30. How can you get the base name of a file path using the path module ? [&uarr; Top](#top)
+To get the base name of a file path using the path module, you can use the path.basename() method. This method takes the file path and an optional suffix as arguments and returns the base name of the file.
 
+```jsx
+var path = require('path');
+
+var filename = path.basename('/Users/Refsnes/demo_path.js');
+console.log(filename);
+```
 
 <div id="q30"></div>
 
 ## 31. How can you get the directory name of a file path using the path module ? [&uarr; Top](#top)
+To get the directory name of a file path using the path module, you can use the path.dirname() method. This method takes the file path as an argument and returns the directory name.
 
+```jsx
+import os
+
+# Example file path
+file_path = "/path/to/some/directory/filename.txt"
+
+# Get the directory name of the file
+directory_name = os.path.dirname(file_path)
+
+# Print the result
+print("Directory name:", directory_name)
+```
 
 <div id="q31"></div>
 
 ## 32. How can you check if a path is an absolute path using the path module ? [&uarr; Top](#top)
+To check if a path is an absolute path using the path module, you can use the path.isAbsolute() method. This method takes the path as an argument and returns a boolean value indicating whether the path is absolute or not.
 
+```jsx
+import os
+
+# Example path
+path = "/absolute/path/to/some/directory"
+
+# Check if the path is absolute
+is_absolute = os.path.isabs(path)
+
+# Print the result
+print("Is absolute path:", is_absolute)
+```
 
 <div id="q32"></div>
 
 ## 33. How can you normalize a file path using the path module ? [&uarr; Top](#top)
+To normalize a file path using the path module, you can use the path.normalize() method. This method takes the file path as an argument and returns a normalized path string.
 
+```jsx
+from pathlib import Path
+
+# Example file path with symbolic links and relative components
+file_path = "/path/to/../some/directory/./filename.txt"
+
+# Create a Path object
+path_object = Path(file_path)
+
+# Normalize the path
+normalized_path = path_object.resolve()
+
+# Print the result
+print("Normalized path:", normalized_path)
+```
 
 <div id="q33"></div>
 
 
 ## 34. What is the purpose of the Node.js REPL ? [&uarr; Top](#top)
+The Node.js REPL (Read-Eval-Print Loop) is a command-line interface for interacting with Node.js. It allows developers to quickly test code snippets and execute Node.js commands.
 
+```jsx
+$ node
+> const sum = (a, b) => a + b;
+undefined
+> sum(3, 4)
+7
+> let array = [1, 2, 3];
+undefined
+> array.map(num => num * 2)
+[ 2, 4, 6 ]
+> .exit
+$
+```
 
 <div id="q34"></div>
 

@@ -156,28 +156,28 @@ Clustering in Node.js is a technique used to distribute the workload across mult
 ## 12. What is the purpose of the fs module in Node.js ? [&uarr; Top](#top)
 The fs module in Node.js provides a way to interact with the file system. It allows developers to read and write files, create directories, and perform other file-related operations.
 
-var fs = require('fs');
+`var fs = require('fs');`
 
 <div id="q12"></div>
 
 ## 13. What is the purpose of the path module in Node.js ? [&uarr; Top](#top)
 The path module in Node.js provides a way to work with file and directory paths. It allows developers to manipulate file paths regardless of the operating system.
 
-var path = require('path');
+`var path = require('path');`
 
 <div id="q13"></div>
 
 ## 14. What is the purpose of the net module in Node.js ? [&uarr; Top](#top)
 The net module in Node.js provides a way to create TCP servers and clients. It allows developers to create custom network protocols and handle low-level network operations.
 
-var net = require("net")
+`var net = require("net")`
 
 <div id="q14"></div>
 
 ## 15. How can you read a file using the fs module ? [&uarr; Top](#top)
 To read a file using the fs module, you can use the fs.readFile() method. This method takes the file path and a callback function as arguments, and the callback_function is called with an error and data (the contents of the file as arguments).  callback_function takes two parameters(error,data)
 
-fs.readFile( filename, encoding, callback_function );
+`fs.readFile( filename, encoding, callback_function );`
 
 
 <div id="q15"></div>
@@ -185,22 +185,23 @@ fs.readFile( filename, encoding, callback_function );
 ## 16. How can you write to a file using the fs module ? [&uarr; Top](#top)
 To write to a file using the fs module, you can use the fs.writeFile() method. This method takes the file path, data to be written, and a callback function as arguments, and the callback function is called with an error argument. callback takes only error
 
-fs.writeFile( file, data, options, callback )
+`fs.writeFile( file, data, options, callback )`
 
 <div id="q16"></div>
 
 ## 17. How can you delete a file using the fs module ? [&uarr; Top](#top)
 To delete a file using the fs module, you can use the fs.unlink() method. This method takes the file path and a callback function as arguments, and the callback function is called with an error argument.
 syntex:
-fs.unlink(path, callback)
+`fs.unlink(path, callback)`
 
 EX.
+```jsx
 const fs = require('fs');
-
 fs.unlink('example.txt', function (err) {
   if (err) throw err;
   console.log('File deleted!');
 });
+```
 
 <div id="q17"></div>
 

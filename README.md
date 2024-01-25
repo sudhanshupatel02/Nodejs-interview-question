@@ -299,27 +299,72 @@ console.log('OS default directory for temp files : ' + os.tmpdir());
 <div id="q24"></div>
 
 ## 25. What is the path module in Node.js ? [&uarr; Top](#top)
-
+The Path module provides a way of working with directories and file paths.It allows developers to manipulate file paths regardless of the operating system's path syntax.
 
 <div id="q25"></div>
 
 ## 26. How can you get the system's CPU architecture using the os module ? [&uarr; Top](#top)
+To get the system's CPU architecture using the os module, you can use the os.arch() method. This method returns the CPU architecture as a string.
 
+```jsx
+const os = require('os');
+
+// Get the system's CPU architecture
+const architecture = os.arch();
+
+console.log(`CPU Architecture: ${architecture}`);
+```
 
 <div id="q26"></div>
 
 ## 27. How can you get the system's total memory using the os module ? [&uarr; Top](#top)
+To get the system's total memory using the os module, you can use the os.totalmem() method. This method returns the total amount of system memory in bytes.
 
+```jsx
+const os = require('os');
+
+// Get the system's total memory in bytes
+const totalMemory = os.totalmem();
+
+// Convert bytes to gigabytes for a more human-readable format
+const totalMemoryGB = (totalMemory / (1024 * 1024 * 1024)).toFixed(2);
+
+console.log(`Total Memory: ${totalMemoryGB} GB`);
+```
 
 <div id="q27"></div>
 
 ## 28. How can you get the system's hostname using the os module ? [&uarr; Top](#top)
+To get the system's hostname using the os module, you can use the os.hostname() method. This method returns the hostname as a string.
 
+```jsx
+const os = require('os');
+
+// Get the system's hostname
+const hostname = os.hostname();
+
+console.log(`Hostname: ${hostname}`);
+```
 
 <div id="q28"></div>
 
 ## 29. How can you join two or more file path segments using the path module ? [&uarr; Top](#top)
+To join two or more file path segments using the path module, you can use the path.join() method. This method takes the path segments as arguments and returns a normalized path string.
 
+```jsx
+const path = require('path');
+
+// Two or more path segments to join
+const segment1 = 'path';
+const segment2 = 'to';
+const segment3 = 'your';
+const segment4 = 'file.txt';
+
+// Join the path segments using path.join()
+const fullPath = path.join(segment1, segment2, segment3, segment4);
+
+console.log(`Full Path: ${fullPath}`);
+```
 
 <div id="q29"></div>
 

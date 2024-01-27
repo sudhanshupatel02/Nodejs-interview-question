@@ -89,7 +89,7 @@ Node.js is an open-source, cross-platform JavaScript runtime environment that al
 <div id="q2"></div>
 
 ## 2. What is an event loop in Node.js ? [&uarr; Top](#top)
-The event loop is a mechanism in Node.js that allows it to handle multiple concurrent operations. It listens for events and sends them to the appropriate callback function when they occur.
+Node.js is a single-threaded event-driven platform that is capable of running non-blocking, asynchronous programming.The event loop is a mechanism in Node.js that allows it to handle multiple concurrent operations. It listens for events and sends them to the appropriate callback function when they occur.
 
 
 <div id="q3"></div>
